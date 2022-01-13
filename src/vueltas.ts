@@ -1,0 +1,10 @@
+let vueltas: number = 4;
+let vuelta1: number = Number(prompt("ingrese tiempo de la primera vuelta"));
+let vuelta2: number = Number(prompt("ingrese tiempo de la segunda vuelta"));
+let vuelta3: number = Number(prompt("ingrese tiempo de la tercera vuelta"));
+let vuelta4: number = Number(prompt("ingrese tiempo de la cuarta vuelta"));
+let vueltaTotal: number = vuelta1 + vuelta2 + vuelta3 + vuelta4;
+let promedio: number = vueltaTotal / 4;
+console.log("el tiempo de la primera vuelta fue" vuelta1 "el tiempo de la segunda vuelta fue" vuelta2 "el tiempo de la tercera vuelta fue" vuelta3 "el tiempo de la cuarta vuelta fue" vuelta4);
+console.log("el tiempo total de las vueltas es" vueltaTotal);
+console.log("el promedio de las vueltas es" promedio);
